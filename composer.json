@@ -1,0 +1,36 @@
+{
+    "name": "jinsoft/framework",
+    "description": "The Laravel Framework.",
+    "keywords": ["framework", "laravel", "jinsoft"],
+    "license": "MIT",
+    "homepage": "https://laravel.com",
+    "support": {
+        "issues": "https://github.com/jinsoft/framework/issues",
+        "source": "https://github.com/jinsoft/framework"
+    },
+    "authors": [
+        {
+            "name": "Xiao Jin",
+            "email": "job@ainiok.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0",
+        "ext-mbstring": "*",
+        "ext-openssl": "*"
+    },
+    "autoload": {
+        "files": [
+            "src/Illuminate/Foundation/helpers.php",
+            "src/Illuminate/Support/helpers.php"
+        ],
+        "psr-4": {
+            "Illuminate\\": "src/Illuminate/"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
